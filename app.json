@@ -1,0 +1,27 @@
+{
+  "package_id": "new-api",
+  "display_name": "New API",
+  "type": "binary",
+  "upstream_repo": "QuantumNous/new-api",
+  "description": "New API is a new generation of large model gateway and AI asset management system, which is developed based on One API.",
+  "description_chs": "New API 是一个新一代大模型网关与 AI 资产管理系统，基于 One API 进行二次开发。该项目旨在提供一个统一的接口来管理和使用各种 AI 模型服务，包括但不限于 OpenAI、Anthropic、Midjourney 等。",
+  "maintainer": "QuantumNous",
+  "maintainer_url": "https://github.com/QuantumNous/new-api",
+  "distributor": "onelxzy",
+  "distributor_url": "https://github.com/onelxzy",
+  "os_min_ver": "7.1-42661",
+  "category": "AI",
+  "changelog": "自动构建，对应上游 {tag}。",
+  "architectures": [
+    {
+      "family": "x86_64",
+      "asset_pattern": "^new-api-v.*(?<!\\.exe)$",
+      "binary_path": "new-api"
+    },
+    {
+      "family": "arm",
+      "asset_pattern": "^new-api-arm64-v.*$",
+      "binary_path": "new-api"
+    }
+  ]
+}

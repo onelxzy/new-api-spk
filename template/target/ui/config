@@ -1,0 +1,13 @@
+{
+    ".url": {
+        "SYNO.SDS.NewAPI.Application": {
+            "title": "New API",
+            "desc": "New API Web UI",
+            "icon": "images/icon_{0}.png",
+            "type": "url",
+            "protocol": "http",
+            "port": "6333",
+            "allUsers": false
+        }
+    }
+}
